@@ -275,7 +275,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
   - {t: ▽, type: trans}
@@ -288,9 +288,9 @@ layers:
   - {t: DEFAULT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -299,7 +299,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP
   - '&mkp RCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
@@ -312,9 +312,9 @@ layers:
   - V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - SCROLL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
