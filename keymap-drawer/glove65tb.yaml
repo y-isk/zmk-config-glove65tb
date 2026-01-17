@@ -275,7 +275,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - UP
   - {t: ▽, type: trans}
   - TAB
   - {t: ▽, type: trans}
@@ -288,9 +288,9 @@ layers:
   - {t: DEFAULT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
