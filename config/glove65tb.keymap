@@ -49,7 +49,7 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&mo 6>;
+            bindings = <&mo 5>;
             key-positions = <49 50>;
         };
     };
