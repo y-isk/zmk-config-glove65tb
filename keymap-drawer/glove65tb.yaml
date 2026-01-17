@@ -62,8 +62,8 @@ layers:
   - LEFT GUI
   - '&mkp LCLK'
   - SPACE
-  - SPACE
-  - FUN
+  - '&mkp RCLK'
+  - '&mkp MCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
@@ -295,7 +295,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
