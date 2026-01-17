@@ -49,7 +49,7 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&mo 5>;
+            bindings = <&mo 6>;
             key-positions = <49 50>;
         };
     };
@@ -78,9 +78,9 @@
             bindings = <
 &kp ESC           &kp N1                               &kp N2        &kp N3            &kp N4        &kp N5                                  &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp BSPC
 &kp TAB           &kp Q                                &kp W         &kp E             &kp R         &kp T      &trans     &kp N3            &kp Y      &kp U   &kp I      &kp O    &kp P     &kp MINUS
-&kp LEFT_CONTROL  &kp A                                &kp S         &kp D             &kp F         &kp G      &mo 2      &to 4             &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp RETURN
-&kp LEFT_SHIFT    &kp Z                                &kp X         &kp C             &kp V         &kp B      &mo 5      &kp SINGLE_QUOTE  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-&mo 3             &mt INTERNATIONAL_2 INTERNATIONAL_1  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp LCLK  &kp SPACE  &mkp RCLK         &mkp MCLK                              &trans    &trans
+&kp LEFT_CONTROL  &kp A                                &kp S         &kp D             &kp F         &kp G      &mo 2      &to 5             &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp RETURN
+&kp LEFT_SHIFT    &kp Z                                &kp X         &kp C             &kp V         &kp B      &mo 6      &kp SINGLE_QUOTE  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+&mo 4             &mt INTERNATIONAL_2 INTERNATIONAL_1  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp LCLK  &kp SPACE  &mkp RCLK         &mkp MCLK                              &trans    &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
@@ -108,6 +108,16 @@
             >;
         };
 
+        m {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &to 0     &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp UP    &mkp RCLK  &mkp LCLK  &mkp MCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &mo 6      &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans                                     &trans  &trans
+            >;
+        };
+
         function_layer {
             label = "FUN";
             bindings = <
@@ -127,8 +137,8 @@
 &kp ESC         &kp N1                               &kp N2    &kp N3     &kp N4        &kp N5                    &kp N6    &kp N7     &kp N8     &kp N9     &trans  &trans
 &kp TAB         &trans                               &trans    &trans     &trans        &trans  &trans  &kp N3    &to 0     &trans     &trans     &trans     &trans  &trans
 &kp LCTRL       &trans                               &trans    &trans     &kp F         &trans  &trans  &trans    &kp UP    &mkp RCLK  &mkp LCLK  &mkp MCLK  &trans  &trans
-&kp LEFT_SHIFT  &kp Z                                &kp X     &kp C      &kp V         &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &mo 5      &trans     &trans  &trans
-&mo 3           &mt INTERNATIONAL_2 INTERNATIONAL_1  &kp LALT  &kp LCTRL  &kp LEFT_GUI  &trans  &trans  &trans    &trans                                     &trans  &trans
+&kp LEFT_SHIFT  &kp Z                                &kp X     &kp C      &kp V         &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &mo 6      &trans     &trans  &trans
+&mo 4           &mt INTERNATIONAL_2 INTERNATIONAL_1  &kp LALT  &kp LCTRL  &kp LEFT_GUI  &trans  &trans  &trans    &trans                                     &trans  &trans
             >;
         };
 
