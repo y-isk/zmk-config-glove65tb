@@ -20,7 +20,7 @@ layers:
   - R
   - T
   - {t: ▽, type: trans}
-  - ''''
+  - '3'
   - Y
   - U
   - I
@@ -48,7 +48,7 @@ layers:
   - V
   - B
   - SCROLL
-  - {t: DEFAULT, h: toggle}
+  - ''''
   - N
   - M
   - ','
@@ -266,15 +266,15 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - '6'
   - '7'
   - '8'
-  - {t: ▽, type: trans}
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,6 +285,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '3'
+  - {t: DEFAULT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -298,7 +299,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: MOUSE, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MCLK'
@@ -312,7 +312,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: DEFAULT, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SCROLL
@@ -327,7 +327,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: DEFAULT, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
