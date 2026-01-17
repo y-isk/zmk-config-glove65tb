@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - '-'
   - LEFT CONTROL
   - A
   - S
@@ -54,7 +54,7 @@ layers:
   - ','
   - .
   - /
-  - RIGHT SHIFT
+  - \
   - FUN
   - {t: INTERNATIONAL 1, h: INTERNATIONAL 2}
   - LEFT ALT
