@@ -34,7 +34,7 @@ layers:
   - F
   - G
   - SYM
-  - {t: MOUSE, h: toggle}
+  - {t: m, h: toggle}
   - H
   - J
   - K
