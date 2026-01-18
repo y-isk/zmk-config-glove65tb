@@ -14,9 +14,10 @@
 #define DEFAULT 0
 #define NUM     1
 #define SYM     2
-#define FUN     3
-#define MOUSE   4
-#define SCROLL  5
+#define M_LAYER 3
+#define FUN     4
+#define MOUSE   5
+#define SCROLL  6
 
 &mmv {
     delay-ms = <20>;
