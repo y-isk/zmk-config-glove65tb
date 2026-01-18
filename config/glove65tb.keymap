@@ -112,7 +112,7 @@
         m {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &to 0     &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &to 0     &trans     &kp LC(C)  &kp LC(V)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp UP    &mkp RCLK  &mkp LCLK  &mkp MCLK  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &mo 6      &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans                                     &trans  &trans
