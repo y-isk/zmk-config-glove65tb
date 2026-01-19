@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - ENTER
   - LEFT CONTROL
   - A
   - S
@@ -40,7 +40,7 @@ layers:
   - K
   - L
   - ;
-  - RETURN
+  - '-'
   - LEFT SHIFT
   - Z
   - X
@@ -56,7 +56,7 @@ layers:
   - /
   - \
   - FUN
-  - Ctl+SPACE
+  - F13
   - LEFT ALT
   - LEFT CONTROL
   - LEFT GUI
