@@ -56,7 +56,7 @@ layers:
   - /
   - \
   - FUN
-  - {t: INTERNATIONAL 1, h: INTERNATIONAL 2}
+  - Ctl+SPACE
   - LEFT ALT
   - LEFT CONTROL
   - LEFT GUI
