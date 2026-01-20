@@ -33,8 +33,8 @@ layers:
   - D
   - F
   - G
-  - SYM
-  - {t: m, h: toggle}
+  - SCROLL
+  - {t: ▽, type: trans}
   - H
   - J
   - K
@@ -47,7 +47,7 @@ layers:
   - C
   - V
   - B
-  - SCROLL
+  - '&mkp LCLK'
   - ''''
   - N
   - M
@@ -60,7 +60,7 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - LEFT GUI
-  - '&mkp LCLK'
+  - SPACE
   - SPACE
   - '&mkp RCLK'
   - '&mkp MCLK'
@@ -165,7 +165,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&ind_con', type: held}
+  - '&ind_con'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,11 +283,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - F11
   - F12
-  - UP ARROW
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
   - '='
@@ -297,12 +297,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME UP
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -311,14 +311,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME DOWN
+  - {t: BT, h: '2'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '`'
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp MCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -353,8 +353,8 @@ layers:
   - '3'
   - {t: DEFAULT, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
@@ -386,7 +386,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - FUN
-  - {t: INTERNATIONAL 1, h: INTERNATIONAL 2}
+  - {t: ▽, type: trans}
   - LALT
   - LCTRL
   - LEFT GUI
@@ -429,21 +429,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -465,3 +465,7 @@ layers:
 combos:
 - p: [49, 50]
   k: SCROLL
+- p: [35, 36, 37]
+  k: {t: m, h: toggle}
+- p: [61, 62]
+  k: Gui+L
