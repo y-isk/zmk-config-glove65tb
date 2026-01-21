@@ -61,7 +61,7 @@
 
         lock {
             bindings = <&kp RG(L)>;
-            key-positions = <11 10>;
+            key-positions = <6 19>;
         };
 
         rclick {
