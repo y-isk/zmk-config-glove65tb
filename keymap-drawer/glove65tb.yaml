@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - F13
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
   - J
@@ -47,7 +47,7 @@ layers:
   - C
   - V
   - B
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
   - ''''
   - N
   - M
@@ -62,8 +62,8 @@ layers:
   - LEFT GUI
   - SPACE
   - SPACE
-  - '&mkp RCLK'
   - '&mkp MCLK'
+  - '&mkp LCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
@@ -467,5 +467,9 @@ combos:
   k: SCROLL
 - p: [35, 36, 37]
   k: {t: m, h: toggle}
-- p: [61, 62]
+- p: [11, 10]
   k: Gui+L
+- p: [61, 62]
+  k: '&mkp RCLK'
+- p: [17, 16]
+  k: F13
