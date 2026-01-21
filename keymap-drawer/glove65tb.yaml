@@ -467,7 +467,7 @@ combos:
   k: SCROLL
 - p: [35, 36, 37]
   k: {t: m, h: toggle}
-- p: [11, 10]
+- p: [6, 19]
   k: Gui+L
 - p: [61, 62]
   k: '&mkp RCLK'
