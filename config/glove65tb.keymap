@@ -54,11 +54,6 @@
             key-positions = <49 50>;
         };
 
-        mouse {
-            bindings = <&to 3>;
-            key-positions = <35 36 37>;
-        };
-
         lock {
             bindings = <&kp RG(L)>;
             key-positions = <6 19>;
@@ -71,7 +66,12 @@
 
         ime {
             bindings = <&kp F13>;
-            key-positions = <17 16>;
+            key-positions = <27 23>;
+        };
+
+        lock-m {
+            bindings = <&kp LG(LC(Q))>;
+            key-positions = <19 6 7>;
         };
     };
 
@@ -117,11 +117,11 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
 
@@ -149,11 +149,11 @@
         function_layer {
             label = "FUN";
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4        &kp F5                                &kp F6    &kp F7     &kp F8     &kp F9     &kp EQUAL         &trans
-&trans  &trans  &trans  &trans  &trans        &trans        &trans        &kp F10   &kp F11   &kp F12    &kp LC(C)  &kp LC(V)  &trans            &trans
-&trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans    &kp UP    &mkp RCLK  &mkp LCLK  &mkp MCLK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans        &trans        &trans        &kp LEFT  &kp DOWN  &kp RIGHT  &mo 6      &trans     &trans            &kp GRAVE
-&trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans    &trans                                     &trans            &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4        &kp F5                                &kp F7    &kp F8     &kp F9    &kp F10    &kp EQUAL         &trans
+&trans  &trans  &trans  &trans  &trans        &trans        &trans        &kp F6    &kp F11   &kp F12    &kp UP    &trans     &trans            &trans
+&trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans    &kp UP    &kp LEFT   &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans  &trans  &trans  &trans        &trans        &trans        &kp LEFT  &kp DOWN  &kp RIGHT  &mo 6     &trans     &trans            &kp GRAVE
+&trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &to 0     &to 1                                     &trans            &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
