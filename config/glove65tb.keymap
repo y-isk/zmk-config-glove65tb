@@ -66,7 +66,7 @@
 
         ime {
             bindings = <&kp F13>;
-            key-positions = <27 23>;
+            key-positions = <27 28>;
         };
 
         lock-m {
