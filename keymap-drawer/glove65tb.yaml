@@ -469,7 +469,7 @@ combos:
   k: Gui+L
 - p: [61, 62]
   k: '&mkp RCLK'
-- p: [27, 23]
+- p: [27, 28]
   k: F13
 - p: [19, 6, 7]
   k: Gui+Ctl+Q
