@@ -15,8 +15,8 @@
 #define NUM     1
 #define SYM     2
 #define M_LAYER 3
-#define FUN     4
-#define MOUSE   5
+#define MOUSE   4
+#define FUN     5
 #define SCROLL  6
 
 &mmv {
