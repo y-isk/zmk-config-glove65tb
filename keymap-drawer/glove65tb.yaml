@@ -299,10 +299,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+C
   - LEFT
   - DOWN
-  - Ctl+V
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -313,7 +313,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
