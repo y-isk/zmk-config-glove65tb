@@ -62,7 +62,7 @@ layers:
   - LCTRL
   - SPACE
   - SPACE
-  - NUM
+  - DEFAULT
   - FUN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,7 +128,7 @@ layers:
   - LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
