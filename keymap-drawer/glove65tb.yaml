@@ -463,8 +463,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [49, 50]
-  k: SCROLL
 - p: [6, 19]
   k: Gui+L
 - p: [19, 6, 7]
