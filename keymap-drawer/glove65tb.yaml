@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - ENTER
-  - LEFT CONTROL
+  - F13
   - A
   - S
   - D
@@ -57,12 +57,12 @@ layers:
   - \
   - FUN
   - {t: ▽, type: trans}
-  - LEFT ALT
-  - LEFT CONTROL
   - LEFT GUI
+  - LEFT ALT
+  - LCTRL
   - SPACE
   - SPACE
-  - '&mkp LCLK'
+  - DEFAULT
   - FUN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,9 +123,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
   - LEFT GUI
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp RCLK'
   - SCROLL
-  - {t: ▽, type: trans}
+  - '&mkp MCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -467,9 +467,5 @@ combos:
   k: SCROLL
 - p: [6, 19]
   k: Gui+L
-- p: [61, 62]
-  k: '&mkp RCLK'
-- p: [27, 28]
-  k: F13
 - p: [19, 6, 7]
   k: Gui+Ctl+Q
