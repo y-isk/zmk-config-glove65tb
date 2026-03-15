@@ -349,7 +349,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - {t: ▽, type: trans}
   - F6
   - F11
   - LEFT
@@ -377,7 +377,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - Ctl+V
   - {t: ▽, type: trans}
