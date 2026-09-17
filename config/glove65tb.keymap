@@ -18,6 +18,8 @@
 #define MOUSE   4
 #define FUN     5
 #define SCROLL  6
+#define GESTURE 7
+#define GEST_MAC 8
 
 &mmv {
     delay-ms = <20>;
@@ -57,6 +59,15 @@
         lock-m {
             bindings = <&kp LG(LC(Q))>;
             key-positions = <19 6 7>;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        gesture_mac {
+            if-layers = <NUM GESTURE>;
+            then-layer = <GEST_MAC>;
         };
     };
 
@@ -100,7 +111,7 @@
 &kp TAB         &kp Q   &kp W         &kp E         &kp R      &kp T      &trans     &kp N6  &kp Y   &kp U   &kp I      &kp O    &kp P      &kp ENTER
 &kp F13         &kp A   &kp S         &kp D         &kp F      &kp G      &trans     &kp N3  &kp H   &kp J   &kp K      &kp L    &kp SEMI   &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp Z   &kp X         &kp C         &kp V      &kp B      &trans     &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH   &kp BACKSLASH
-&mo 5           &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &kp SPACE  &mo 0   &mo 5                               &trans     &trans
+&mo 5           &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &kp SPACE  &mo GESTURE &mo 5                           &trans     &trans
             >;
 
             sensor-bindings = <&sensor_rotate_to 0 1>;
@@ -168,6 +179,30 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+            >;
+        };
+
+        gesture_layer {
+            label = "GEST";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans        &trans    &trans         &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)  &kp HOME  &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)  &kp END   &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &trans
+            >;
+        };
+
+        gesture_mac_layer {
+            label = "GEST_M";
+
+            // 左右だけ Cmd 系。上下は &trans で GESTURE の HOME/END に落とす
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans        &trans  &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LBKT)  &trans  &kp LG(RBKT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LBKT)  &trans  &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans
             >;
         };
     };
